@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <title>Register Form</title>
+    <style>
+
+header{
+    background-color: rgb(246, 86, 28);
+    padding: 10px 10px;
+    
+}
+footer{
+    background-color: rgb(246, 86, 28);
+    padding: 10px 10px;
+    text-align: center;
+    position: relative;
+    top: 360px;
+    color: aliceblue;
+}
+.login{
+    position: absolute;
+    left: 87%;
+    display: inline;
+}
+.Signup{
+    position: absolute;
+    left: 93%;
+    color: rgb(193, 195, 196);
+    display: inline;
+
+}
+h1{
+    
+    position: relative;
+    top: 100px;
+    left: 30%;
+    width: 300px;
+    text-size-adjust: 200px;
+
+    
+}
+Form{
+    position: relative;
+    left: 30%;
+    top: 100px;
+    width: 30px;
+}
+.todoapp{
+    color: azure;
+    display: inline;
+}
+.javablue{
+    font: 300;
+    color: rgb(6, 6, 198);
+}
+.blue{
+    background-color: blue;
+    color:white;
+}
+a{
+    text-decoration: rgb(246, 248, 248);
+    color: aliceblue;
+}
+    </style>
+</head>
+<body>
+    <header><span class="todoapp">Todo App</span> <nav class="login"><a href="Login.html">Login</a> </nav> <nav class="Signup"><a href="Register.html">SignUp</a></nav> </header>
+    <H1>User Register Form </H1>
+    <Form action="UserRegisterController" method="post">
+        <table>
+            <tr>
+                <td>
+                    First Name:
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" name="fname" placeholder="First Name">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Last Name:
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" name="lname" placeholder="Last Name">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    User Name:
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" name="user" placeholder="First Name">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Password:
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="password" name="pwd" placeholder="Password">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input class="blue" type="submit" value="submit">
+                </td>
+            </tr>
+        </table>
+    </Form>
+<footer>&copy; <span class="todoapp">2019Copyright:</span><span class="javablue">JavaGuides</span></footer>
+    
+</body>
+</html>
